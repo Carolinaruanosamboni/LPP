@@ -1,0 +1,53 @@
+Entero opcion
+
+
+INICIO
+	Escriba ("seleccione una opcion del Menú")
+	LLamar nueva_linea
+	
+	Escriba (" 1. la primera genración")
+    LLamar nueva_linea
+     
+	Escriba (" 2. Segunda Generación")
+	LLamar nueva_linea
+	 
+	Escriba (" 3. tercera Generación")
+	LLamar nueva_linea
+	
+	Escriba (" 4. cuarta Generación")
+	LLamar nueva_linea 
+	
+	Escriba (" 5. quinta Generación")
+	LLamar nueva_linea 
+	
+	Escriba (" 6. sexta Generación")
+	LLamar nueva_linea 
+	
+	Escriba (" 7. Memorias")
+	LLamar nueva_linea
+	
+	Escriba (" 8. procesadores ")
+	LLamar nueva_linea 
+	
+	Escriba (" 9. Tarjerta Madre")
+	LLamar nueva_linea
+	 
+	Escriba (" 10. unidades de almacenamiento")
+	
+	LLamar nueva_linea
+	
+	Escriba ("La opcion que desea")
+	Lea opcion
+	
+	SI (opcion=1)Entonces
+	Escriba("se caracterizo por ser maquinas mecanicas poco confiables")
+	fin si
+	
+	SI (opcion=2)Entonces
+	Escriba("se caracterizo por tener transistores")
+	fin si
+	
+	
+FIN
+
+	

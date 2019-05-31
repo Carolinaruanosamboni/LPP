@@ -1,0 +1,29 @@
+Cadena [7] producto
+real cantidad, precio,total
+
+INICIO
+	Escriba ("¿cual es el producto?")
+	lea producto
+
+	Escriba( "precio del producto")
+	Lea precio
+	
+	Escriba( "cantidad del producto")
+	Lea cantidad
+	
+	si ( cantidad >=10 ) entonces
+	  Escriba ("3% descuento")
+	  Total<- precio * cantidad - (precio * cantidad * 0.03)
+	  Escriba (" el total es "), total
+	sino 
+	  Escriba ("No es apto para descuento")
+	  Total<- precio * cantidad
+	  Escriba (" el total es "), total
+		
+	Fin si
+	
+	 
+	
+			
+FIN
+		

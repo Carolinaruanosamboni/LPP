@@ -1,0 +1,102 @@
+Entero CantidadPersonas, opcion, Ciclo, CantidadGeneroFemenino, CantidadGeneroMasculino, cop1,cop2,cop3,cop4,cop5,cop6
+cadena [1] genero
+Inicio
+
+	Escriba ("Cuantas personas van a realizar")
+	Lea CantidadPersonas
+	CantidadGeneroFemenino<-0
+	CantidadGeneroMasculino<-0
+	cop1<-0
+	cop2<-0
+	cop3<-0
+	cop4<-0
+	cop5<-0
+	cop6<-0
+Para ciclo<-1 hasta CantidadPersonas haga
+
+	Escriba ("cual es la opcion que mas le gusta del listado")
+	Llamar nueva_linea
+	
+	escriba ("1. Cine")
+	Llamar nueva_linea
+	
+	escriba ("2. Comer")
+	Llamar nueva_linea
+	
+	escriba ("3. Realizar deporte")
+	Llamar nueva_linea
+
+	escriba ("4. GYM")
+	Llamar nueva_linea
+	
+	escriba ("5. Hablar")
+	Llamar nueva_linea
+	
+	escriba ("6. Cena Romantica")
+	Llamar nueva_linea
+	
+	Escriba ("¿Cual es tu gusto")
+	Lea Opcion
+	
+	escriba ("¿Cual es tu Genero F: Femenino; M: Masculino ")
+	Lea genero
+	
+	Si ( Genero="F")Entonces
+	CantidadGeneroFemenino<-CantidadGeneroFemenino+1
+	fin Si
+	
+	Si (Genero="M")entonces
+	CantidadGeneroMasculino<-CantidadGeneroMasculino+1
+	Fin Si
+	
+	Si (Opcion=1)entonces
+		cop1<-cop1+1
+	Fin Si
+	
+	Si (Opcion=2)entonces
+		cop2<-cop2+1
+	Fin Si
+	
+	Si (Opcion=3)entonces
+		cop3<-cop3+1
+	Fin Si
+	
+	Si (Opcion=4)entonces
+		cop4<-cop4+1
+	Fin Si
+	
+	Si (Opcion=5)entonces
+		cop5<-cop5+1
+	Fin Si
+	
+	Si (Opcion=6)entonces
+		cop6<-cop6+1
+	Fin Si
+	
+		
+Fin Para 
+
+	Escriba ("El numero de genero F: "),CantidadGeneroFemenino
+	Llamar Nueva_linea
+	Escriba ("El numero de genero M: "),CantidadGeneroMasculino
+	
+	Llamar Nueva_linea
+	
+	Escriba ("Cantidad 1.Cine: "),cop1
+	Llamar Nueva_linea
+	
+	Escriba ("Cantidad 2. Comer: "),cop2
+	Llamar Nueva_linea
+	
+	Escriba ("Cantidad 3. Realizar Deporte: "),cop3
+	Llamar Nueva_linea
+	
+	Escriba ("Cantidad 4. GYM: "),cop4
+	Llamar Nueva_linea
+	
+	Escriba ("Cantidad 5. Hablar: "),cop5
+	Llamar Nueva_linea
+	
+	Escriba ("Cantidad 6. Cena Romantica: "),cop6
+	Llamar Nueva_linea
+Fin
